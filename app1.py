@@ -34,7 +34,7 @@ if selected_module == "Trend Over Time":
         st.plotly_chart(fig_trend)
     else:
         st.write("The dataset does not contain a 'created' field to show a time trend.")
-# Module 3: Top Techniques Visualization
+# Module 2: Top Techniques Visualization
 elif selected_module == "Top Techniques":
     st.title("Top Techniques Across Groups and Software")
     
