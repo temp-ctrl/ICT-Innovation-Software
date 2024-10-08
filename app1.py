@@ -18,7 +18,7 @@ def aggregate_data(df, group_column, count_column):
 
 # Module 1: Trend Over Time Visualization
 if selected_module == "Trend Over Time":
-    st.title("Trend Over Time for Techniques")
+    st.title("Trend Over Time for Techniques Across Groups")
     
     # If 'created' and 'last modified' fields exist, visualize how techniques are used over time
     if 'created' in df_techniques_and_groups.columns:
@@ -36,7 +36,7 @@ if selected_module == "Trend Over Time":
         st.write("The dataset does not contain a 'created' field to show a time trend.")
 # Module 2: Top Techniques Visualization
 elif selected_module == "Top Techniques":
-    st.title("Top Techniques Across Groups and Software")
+    st.title("Top Techniques Across Groups")
     
     # Aggregate the data to find the top 10 most frequently used techniques
     top_techniques = df_techniques_and_groups.groupby('target name').size().reset_index(name='count').sort_values(by='count', ascending=False).head(10)
