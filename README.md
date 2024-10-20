@@ -1,16 +1,16 @@
 # ICT-Innovation-Software
 1. Introduction
-Overview of the Application:
-The Modular Threat Mapping Dashboard provides users with an interactive platform to explore, analyze, and visualize the MITRE ATT&CK dataset.
-The dashboard features five key modules: Top Techniques, Software Usage, Adversary Group Analysis, Relationship Analysis, and Combined Techniques, Groups, and Tactics.
-Purpose:
-This manual explains how to navigate the application, interact with the different modules, and export visualizations for further analysis or reporting.
-System Requirements:
-Python version 3.7+
-Required libraries: pandas, plotly, streamlit
-Modern web browser (Chrome, Firefox, or Edge)
+  Overview of the Application:
+  The Modular Threat Mapping Dashboard provides users with an interactive platform to explore, analyze, and visualize the MITRE ATT&CK dataset.
+  The dashboard features five key modules: Top Techniques, Software Usage, Adversary Group Analysis, Relationship Analysis, and Combined Techniques, Groups, and Tactics.
+  Purpose:
+  This manual explains how to navigate the application, interact with the different modules, and export visualizations for further analysis or reporting.
+  System Requirements:
+  Python version 3.7+
+  Required libraries: pandas, plotly, streamlit
+  Modern web browser (Chrome, Firefox, or Edge)
 2. Getting Started
-How to Launch the Application:
+  How to Launch the Application:
   1. Clone the Github Respository :
      git clone https://github.com/team/project
   2. Navigate to the project directory:
