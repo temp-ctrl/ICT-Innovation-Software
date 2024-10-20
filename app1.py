@@ -5,6 +5,8 @@ import plotly.io as pio
 import random
 import io
 
+pio.templates.default = "plotly"
+
 # Load datasets
 df_techniques_and_tactics = pd.read_csv("project30016/data/Techniques_and_Tactics.csv")
 df_techniques_and_groups = pd.read_csv("project30016/data/Techniques_and_Groups.csv")
