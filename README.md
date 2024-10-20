@@ -30,27 +30,26 @@
           Main Display Area: Displays visualizations and charts based on the selected module.
       2. Modules:
           1. Top Techniques:
-            - Displays the top 10 techniques used across adversary groups.
-            - How to interact: Use the sidebar to select the module, and the visualization will automatically display. You can hover over the bars for more information or zoom into specific sections.
-            - Export option: Click the "Download as PDF" button to export the visualization.
+              - Displays the top 10 techniques used across adversary groups.
+              - How to interact: Use the sidebar to select the module, and the visualization will automatically display. You can hover over the bars for more information or zoom into specific sections.
+              - Export option: Click the "Download as PDF" button to export the visualization.
           2. Software Usage:
-            - Shows the top 10 software used across techniques.
-            - How to interact: After selecting the module, a bar chart will appear. You can hover and zoom in/out.
-            - Export option: Click "Download as PDF" to save the chart.
+              - Shows the top 10 software used across techniques.
+              - How to interact: After selecting the module, a bar chart will appear. You can hover and zoom in/out.
+              - Export option: Click "Download as PDF" to save the chart.
           3. Adversary Group Analysis:
-            - Displays the top 10 most active adversary groups using different techniques.
-            - How to interact: Use the sidebar to choose this module, and the bar chart will update.
-            - Export option: Use the "Download as PDF" option for export.
+              - Displays the top 10 most active adversary groups using different techniques.
+              - How to interact: Use the sidebar to choose this module, and the bar chart will update.
+              - Export option: Use the "Download as PDF" option for export.
           4. Relationship Analysis:
-            - Allows users to select techniques and visualize relationships between techniques, tactics, and software.
-            - How to interact:
-            - Use the multiselect dropdown to choose techniques from the sidebar.
-            - A stacked bar chart, a regular bar chart, and a treemap visualization will be displayed.
-            - Export options: You can export each visualization by clicking the respective download buttons.
+              - Allows users to select techniques and visualize relationships between techniques, tactics, and software.
+              - How to interact: Use the multiselect dropdown to choose techniques from the sidebar.
+              - A stacked bar chart, a regular bar chart, and a treemap visualization will be displayed.
+              - Export options: You can export each visualization by clicking the respective download buttons.
           5. Combined Techniques, Groups, and Tactics:
-            - Combines data from techniques, adversary groups, and tactics for analysis.
-            - How to interact: Use the multiselect dropdown to filter specific adversary groups. A bar chart will display techniques used by selected groups.
-            - Export option: Click "Download as PDF" to save the chart.
+              - Combines data from techniques, adversary groups, and tactics for analysis.
+              - How to interact: Use the multiselect dropdown to filter specific adversary groups. A bar chart will display techniques used by selected groups.
+              - Export option: Click "Download as PDF" to save the chart.
 4. Exporting Visualizations
   - How to Export Data:
     + Each visualization in the dashboard can be exported as a PDF.
