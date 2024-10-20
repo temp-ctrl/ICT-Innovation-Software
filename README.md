@@ -12,7 +12,7 @@
 2. Getting Started
   - How to Launch the Application:
     + Clone the Github Respository :
-       - git clone https://github.com/team/project
+       - git clone https://github.com/temp-ctrl/ICT-Innovation-Software.git
     + Navigate to the project directory:
        - cd project-directory
     + Install requirement library :
